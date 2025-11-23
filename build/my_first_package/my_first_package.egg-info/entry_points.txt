@@ -1,9 +1,0 @@
-[console_scripts]
-number_publisher = my_first_package.number_publisher:main
-number_subscriber = my_first_package.number_subscriber:main
-ping_node = my_first_package.ping_node:main
-pong_node = my_first_package.pong_node:main
-publisher = my_first_package.simple_publisher:main
-subscriber = my_first_package.simple_subscriber:main
-turtle_square = my_first_package.turtle_square:main
-
