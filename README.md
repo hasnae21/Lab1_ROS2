@@ -11,13 +11,11 @@ Le Lab 1 introduit les concepts fondamentaux de ROS2 :
 
 L’objectif principal : comprendre comment deux nœuds communiquent entre eux via un topic, et comment lancer un nœud, vérifier les topics, et interpréter les messages.
 
----
 
 # 🟦 **Exercice 1 
 
 ### 📸 Captures
 
----
 <img width="442" height="208" alt="image" src="https://github.com/user-attachments/assets/3985f3ef-9aa0-4cfd-b6c0-a0832a3ad580" />
 <img width="1045" height="611" alt="image" src="https://github.com/user-attachments/assets/28cea4c9-9790-4974-bc0b-e58604e265d9" />
 
@@ -27,7 +25,6 @@ L’objectif principal : comprendre comment deux nœuds communiquent entre eux v
 
 ### 📸 Captures
 
----
 <img width="1580" height="614" alt="image" src="https://github.com/user-attachments/assets/bcf50ac7-079f-402f-bcc9-b65270b2ab09" />
 <img width="1580" height="488" alt="image" src="https://github.com/user-attachments/assets/ede52e85-068b-4498-88f7-cfb11041f4cd" />
 
@@ -37,7 +34,6 @@ L’objectif principal : comprendre comment deux nœuds communiquent entre eux v
 
 ### 📸 Captures
 
----
 <img width="1786" height="516" alt="image" src="https://github.com/user-attachments/assets/d68a8090-3603-49a2-8175-903b23fca7c1" />
 
 ---
@@ -46,7 +42,6 @@ L’objectif principal : comprendre comment deux nœuds communiquent entre eux v
 
 ### 📸 Captures
 
----
 <img width="1778" height="706" alt="image" src="https://github.com/user-attachments/assets/08b548fc-b519-4711-8399-4d85b62b10cf" />
 
 ---
@@ -55,7 +50,6 @@ L’objectif principal : comprendre comment deux nœuds communiquent entre eux v
 
 ### 📸 Captures
 
----
 <img width="1778" height="566" alt="image" src="https://github.com/user-attachments/assets/90d11b00-bcc2-42ad-b0da-99d3e1fcc2a8" />
 <img width="1778" height="566" alt="image" src="https://github.com/user-attachments/assets/fe997a06-bd05-4d80-92da-4027c127591c" />
 
