@@ -12,7 +12,15 @@ Le Lab 1 introduit les concepts fondamentaux de ROS2 :
 L’objectif principal : comprendre comment deux nœuds communiquent entre eux via un topic, et comment lancer un nœud, vérifier les topics, et interpréter les messages.
 
 
-# 🟦 **Exercice 1 
+# 🟦 **Exercice 1 - Modify the Publisher
+
+**Goal:** Change your publisher to send different messages
+
+**Tasks:**
+1. Open `simple_publisher.py` in VS Code
+2. Modify to publish your name instead of "Hello ROS2"
+3. Change timer to 0.5 seconds
+4. Rebuild and test
 
 ### 📸 Captures
 
@@ -21,7 +29,16 @@ L’objectif principal : comprendre comment deux nœuds communiquent entre eux v
 
 ---
 
-# 🟩 **Exercice 2
+# 🟩 **Exercice 2 - Add Message Counter
+
+**Goal:** Make the subscriber count messages
+
+**Tasks:**
+1. Open `simple_subscriber.py` in VS Code
+2. Add counter variable in `__init__()`
+3. Increment in `listener_callback()`
+4. Print total count
+5. Rebuild and test
 
 ### 📸 Captures
 
@@ -30,7 +47,16 @@ L’objectif principal : comprendre comment deux nœuds communiquent entre eux v
 
 ---
 
-# 🟧 **Exercice 3 
+# 🟧 **Exercice 3 - Number Publisher (Medium-Hard)
+
+**Goal:** Create publisher that sends integers
+
+**Tasks:**
+1. Create `number_publisher.py` in VS Code
+2. Use `std_msgs/msg/Int32`
+3. Create `number_subscriber.py` that doubles numbers
+4. Update `setup.py` entry points
+5. Build and test
 
 ### 📸 Captures
 
@@ -38,7 +64,15 @@ L’objectif principal : comprendre comment deux nœuds communiquent entre eux v
 
 ---
 
-# 🟥 **Exercice 4 
+# 🟥 **Exercice 4 - Turtle Controller (Hard)
+
+**Goal:** Make turtle draw a square
+
+**Tasks:**
+1. Create `turtle_square.py`
+2. Publish to `/turtle1/cmd_vel`
+3. Use `geometry_msgs/msg/Twist`
+4. Move forward, turn 90°, repeat 4 times
 
 ### 📸 Captures
 
@@ -46,7 +80,26 @@ L’objectif principal : comprendre comment deux nœuds communiquent entre eux v
 
 ---
 
-# 🟪 **Exercice 5 
+# 🟪 **Exercice 5 - Two-Way Communication (Advanced)
+
+**Goal:** Create a request-response system
+
+**Tasks:**
+1. Create `ping_node.py` - publishes "PING" to `/ping_topic`
+2. Create `pong_node.py` - subscribes to `/ping_topic`, publishes "PONG" to `/pong_topic`
+3. Modify `ping_node` to also subscribe to `/pong_topic`
+4. Log the round-trip communication
+
+**Expected output:**
+```
+[ping_node]: Sent PING #1
+[pong_node]: Received PING #1, sending PONG
+[ping_node]: Received PONG for PING #1
+[ping_node]: Sent PING #2
+...
+```
+
+**Bonus:** Calculate and display the round-trip time
 
 ### 📸 Captures
 
