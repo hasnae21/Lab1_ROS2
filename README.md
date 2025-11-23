@@ -1,6 +1,4 @@
-refia le readrme file
 # 📘 **LAB 1 – Introduction à ROS2 (Résumé + Exercices 1→5)**
----
 
 ## 🌟 **Résumé global du Lab 1**
 
@@ -115,5 +113,3 @@ Ce Lab pose toutes les bases pour les Labs suivants (services, actions, launch f
 ---
 <img width="729" height="222" alt="image" src="https://github.com/user-attachments/assets/d2110863-e564-47c7-9b06-0f683f53ae75" />
 <img width="375" height="460" alt="image" src="https://github.com/user-attachments/assets/482d53bd-f0ac-45ca-b17d-8c00ed36704c" />
-
-en se concantrant seulement sur les exercises 
