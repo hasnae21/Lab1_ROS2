@@ -7,24 +7,13 @@ Le Lab 1 introduit les concepts fondamentaux de ROS2 :
 * Les **workspaces**
 * Les **packages**
 * La **communication** via **topics** (pub/sub)
-* L'utilisation de **nodes**, **launch files**, et outils de base :
-
-  * `ros2 run`
-  * `ros2 topic list`
-  * `ros2 topic echo`
-  * `ros2 topic pub`
-  * `ros2 node list`
-  * `ros2 interface show`
+* L'utilisation de **nodes**, **launch files**, et outils de base 
 
 L’objectif principal : comprendre comment deux nœuds communiquent entre eux via un topic, et comment lancer un nœud, vérifier les topics, et interpréter les messages.
 
 ---
 
-# 🟦 **Exercice 1 – Création du workspace et du package**
-
-### 🎯 Objectif
-
-Créer un workspace ROS2, le construire, sourcer l’environnement, et vérifier sa structure.
+# 🟦 **Exercice 1 
 
 ### 📸 Captures
 
@@ -34,11 +23,7 @@ Créer un workspace ROS2, le construire, sourcer l’environnement, et vérifier
 
 ---
 
-# 🟩 **Exercice 2 – Lancer un node existant ROS2**
-
-### 🎯 Objectif
-
-Lancer un nœud simple fourni par un package déjà existant dans ROS2.
+# 🟩 **Exercice 2
 
 ### 📸 Captures
 
@@ -48,11 +33,7 @@ Lancer un nœud simple fourni par un package déjà existant dans ROS2.
 
 ---
 
-# 🟧 **Exercice 3 – Explorer les Topics**
-
-### 🎯 Objectif
-
-Apprendre à voir les topics, lire leur contenu et identifier leur type.
+# 🟧 **Exercice 3 
 
 ### 📸 Captures
 
@@ -61,11 +42,7 @@ Apprendre à voir les topics, lire leur contenu et identifier leur type.
 
 ---
 
-# 🟥 **Exercice 4 – Publier manuellement un message**
-
-### 🎯 Objectif
-
-Publier toi-même un message dans un topic pour comprendre la structure des messages.
+# 🟥 **Exercice 4 
 
 ### 📸 Captures
 
@@ -74,11 +51,7 @@ Publier toi-même un message dans un topic pour comprendre la structure des mess
 
 ---
 
-# 🟪 **Exercice 5 – Créer un nœud simple (pub ou sub)**
-
-### 🎯 Objectif
-
-Créer un package personnel contenant un node qui publie ou reçoit un message.
+# 🟪 **Exercice 5 
 
 ### 📸 Captures
 
@@ -90,7 +63,7 @@ Créer un package personnel contenant un node qui publie ou reçoit un message.
 
 # 📝 **Résumé final du Lab 1**
 
-À la fin du Lab 1, tu es capable de :
+À la fin du Lab 1, on a traiter :
 
 ### ✔️ Créer un workspace ROS2
 
@@ -107,8 +80,6 @@ Créer un package personnel contenant un node qui publie ou reçoit un message.
 ### ✔️ Créer ton premier package et node simple
 
 ### ✔️ Vérifier la communication entre ton node et d’autres programmes ROS2
-
-Ce Lab pose toutes les bases pour les Labs suivants (services, actions, launch files avancés…).
 
 ---
 <img width="729" height="222" alt="image" src="https://github.com/user-attachments/assets/d2110863-e564-47c7-9b06-0f683f53ae75" />
